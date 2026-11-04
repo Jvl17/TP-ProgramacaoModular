@@ -1,0 +1,78 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="YepKnCEOo666k6pLSOBt">
+    <mxGraphModel dx="1015" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-27" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" value="Rota" vertex="1">
+          <mxGeometry height="230" width="330" x="140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-28" parent="nDmu4jojrf02d2Cl-RR4-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="40" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-29" parent="nDmu4jojrf02d2Cl-RR4-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Responsabilidades&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="165" as="geometry">
+            <mxRectangle height="40" width="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-30" parent="nDmu4jojrf02d2Cl-RR4-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Colaboradores&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="165" x="165" as="geometry">
+            <mxRectangle height="40" width="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-32" parent="nDmu4jojrf02d2Cl-RR4-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="40" width="330" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-33" parent="nDmu4jojrf02d2Cl-RR4-32" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Saber cidade origem&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="165" as="geometry">
+            <mxRectangle height="40" width="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-34" parent="nDmu4jojrf02d2Cl-RR4-32" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;rowspan=4;colspan=1;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt; enum&amp;gt; Cidade: código, objeto&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="165" x="165" as="geometry">
+            <mxRectangle height="40" width="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-36" parent="nDmu4jojrf02d2Cl-RR4-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="40" width="330" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-37" parent="nDmu4jojrf02d2Cl-RR4-36" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Saber cidade destino&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="165" as="geometry">
+            <mxRectangle height="40" width="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-38" parent="nDmu4jojrf02d2Cl-RR4-36" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="" vertex="1" visible="0">
+          <mxGeometry height="40" width="165" x="165" as="geometry">
+            <mxRectangle height="40" width="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-40" parent="nDmu4jojrf02d2Cl-RR4-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
+          <mxGeometry height="40" width="330" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-41" parent="nDmu4jojrf02d2Cl-RR4-40" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Gerar código de 4 digitos (origem + destino)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="165" as="geometry">
+            <mxRectangle height="40" width="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-42" parent="nDmu4jojrf02d2Cl-RR4-40" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0">
+          <mxGeometry height="40" width="165" x="165" as="geometry">
+            <mxRectangle height="40" width="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-43" parent="nDmu4jojrf02d2Cl-RR4-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
+          <mxGeometry height="40" width="330" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-44" parent="nDmu4jojrf02d2Cl-RR4-43" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Representar rota entre duas cidades&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="165" as="geometry">
+            <mxRectangle height="40" width="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDmu4jojrf02d2Cl-RR4-45" parent="nDmu4jojrf02d2Cl-RR4-43" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" visible="0">
+          <mxGeometry height="40" width="165" x="165" as="geometry">
+            <mxRectangle height="40" width="165" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
