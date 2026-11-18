@@ -23,12 +23,12 @@ class CidadeTest {
 
     @Test 
     void deveRetornarCodigoDeBeloHorizonte() {
-        assertEquals(13, Cidade.BELO_HORIZONTE.getCodigo());
+        assertEquals("13", Cidade.BELO_HORIZONTE.getCodigo());
     }
 
     @Test 
     void deveRetornarCodigoDeRecife(){
-        assertEquals(50, Cidade.RECIFE.getCodigo());
+        assertEquals("50", Cidade.RECIFE.getCodigo());
     }
 
     @Test 
