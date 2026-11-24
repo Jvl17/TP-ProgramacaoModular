@@ -53,8 +53,8 @@ public class Cliente {
 
     public double getTotal() {
         double total = 0;
-        for (Bilhete b : bilhetes) {
-            total += b.calcularPreco();
+        for (Bilhete bilhete : bilhetes) {
+            total += bilhete.calcularPreco();
         }
         return total;
     }
