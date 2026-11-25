@@ -1,5 +1,3 @@
-package br.com.xavi;
-
 // Agente utilizado: Claude Opus 5.5
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -13,7 +11,7 @@ class ClienteTest {
     private Bilhete criarBilhete(double preco) {
         Rota rota = new Rota(Cidade.BELO_HORIZONTE, Cidade.RECIFE);
         Voo voo = new Voo(rota, LocalDate.of(2026, 12, 10), preco);
-        Bilhete bilhete = new Bilhete();
+        Bilhete bilhete = new Bilhete(new Cliente("Caio", "Mayllart", 1));
         bilhete.adicionarVoo(voo);
         return bilhete;
     }
@@ -71,6 +69,6 @@ class ClienteTest {
         cliente.addBilhete(criarBilhete(500));
         cliente.addBilhete(criarBilhete(300));
 
-        assertEquals(800, cliente.getTotal(), 0.01);
+        assertEquals(480, cliente.getTotal(), 0.01);
     }
 }

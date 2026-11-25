@@ -1,5 +1,3 @@
-package br.com.xavi;
-
 public enum Cidade {
 
     BELO_HORIZONTE("13"),

@@ -1,5 +1,3 @@
-package br.com.xavi;
-
 import java.util.Objects;
 
 public class Rota {

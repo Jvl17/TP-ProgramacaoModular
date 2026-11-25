@@ -1,5 +1,3 @@
-package br.com.xavi;
-
 // Agente utilizado: Claude Opus 5.5 
 
 import java.util.ArrayList;

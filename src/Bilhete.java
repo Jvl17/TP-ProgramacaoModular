@@ -1,3 +1,8 @@
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.time.temporal.ChronoUnit;
+
 public class Bilhete {
     private Cliente cliente;
     private List<Voo> voos = new ArrayList<>();
@@ -8,9 +13,9 @@ public class Bilhete {
 
     public boolean adicionarVoo(Voo v) {
         if (v == null) return false;
-        if (voos.isEmpty()) {
-            Voo ultimo = voos.get(voos.size() - 1);          
-            if (ultimo.getDestino() != v.getOrigem()) return false;
+        if (!voos.isEmpty()) {
+            Voo ultimo = voos.get(voos.size() - 1);
+            if (ultimo.getRota().getDestino() != v.getRota().getOrigem()) return false;
             long dias = ChronoUnit.DAYS.between(ultimo.getData(), v.getData());
             if (dias < 0 || dias > 1) return false;
         }
@@ -34,8 +39,6 @@ public class Bilhete {
 
     public Cliente getCliente() { return cliente; }
     public List<Voo> getVoos() { return voos; }
-    public Cidade getOrigem() { return voos.get(0).getOrigem(); }
-    public Cidade getDestino() { return voos.get(voos.size() - 1).getDestino(); }
+    public Cidade getOrigem() { return voos.get(0).getRota().getOrigem(); }
+    public Cidade getDestino() { return voos.get(voos.size() - 1).getRota().getDestino(); }
 }
-
-// Tentei de verdade mas tive auxilio da IA Claude modelo Sonnet 5.5

@@ -1,5 +1,3 @@
-package br.com.xavi;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
