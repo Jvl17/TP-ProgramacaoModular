@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="app.diagrams.net" agent="ChatGPT" version="24.7.17" type="device">
+  <diagram id="uml-voo" name="UML - Classe Voo">
+    <mxGraphModel dx="1100" dy="750" grid="1" gridSize="10" page="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="voo" value="Voo" style="swimlane;html=1;rounded=0;startSize=42;fillColor=#dae8fc;swimlaneFillColor=#ffffff;strokeColor=#3b6e9e;fontColor=#17365d;fontStyle=1;fontSize=18;align=center;" vertex="1" parent="1">
+          <mxGeometry x="385" y="220" width="390" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="attrs" value="- rota: Rota&lt;br&gt;- data: LocalDate&lt;br&gt;- precoBase: double&lt;br&gt;+ CAPACIDADE_MAXIMA: int = 150 {static, readOnly}" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;spacingLeft=14;fontSize=15;strokeColor=#3b6e9e;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="385" y="262" width="390" height="145" as="geometry"/>
+        </mxCell>
+        <mxCell id="methods" value="+ Voo(rota: Rota, data: LocalDate, precoBase: double)&lt;br&gt;+ getRota(): Rota&lt;br&gt;+ getData(): LocalDate&lt;br&gt;+ getPrecoBase(): double&lt;br&gt;+ setPrecoBase(precoBase: double): void" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;spacingLeft=14;fontSize=14;strokeColor=#3b6e9e;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="385" y="407" width="390" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="rota" value="Rota&lt;br&gt;(origem, destino, código)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#777777;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="285" width="220" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="bilhete" value="Bilhete&lt;br&gt;(conjunto de voos)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#777777;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="285" width="220" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="er" value="1 Voo utiliza 1 Rota&lt;br&gt;1 Rota pode ter vários voos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#555555;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="voo" target="rota">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eb" value="1 Bilhete contém 1..* voos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#555555;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="bilhete" target="voo">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="note" value="&lt;b&gt;Observações&lt;/b&gt;&lt;br&gt;• Cada Voo associa uma Rota a uma data e possui preço-base.&lt;br&gt;• A capacidade máxima informada no enunciado é de 150 passageiros por voo.&lt;br&gt;• Rota e Bilhete aparecem como classes colaboradoras; o foco desta tarefa é Voo." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="625" width="600" height="105" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
