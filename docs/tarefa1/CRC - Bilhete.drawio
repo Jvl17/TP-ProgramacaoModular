@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="crc-bilhete" name="Cartão CRC - Bilhete">
+    <mxGraphModel dx="1132" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bil-outer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#34495e;strokeWidth=2;arcSize=8;" value="" vertex="1">
+          <mxGeometry height="470" width="560" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bil-header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;strokeColor=#6c8ebf;" value="CARTÃO CRC — BILHETE" vertex="1">
+          <mxGeometry height="65" width="560" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bil-resp-head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;strokeColor=#666666;" value="RESPONSABILIDADES" vertex="1">
+          <mxGeometry height="48" width="340" x="80" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="bil-collab-head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;strokeColor=#666666;" value="COLABORADORES" vertex="1">
+          <mxGeometry height="48" width="220" x="420" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="bil-resp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#222222;fontSize=14;align=left;verticalAlign=top;spacing=10;strokeColor=#8aa9c4;" value="&lt;ul style=&quot;line-height:1.5&quot;&gt;&lt;li&gt;Armazenar os voos que compõem o bilhete.&lt;/li&gt;&lt;li&gt;Validar a conexão entre os voos: a origem do voo seguinte deve ser o destino do anterior, no mesmo dia ou no dia seguinte.&lt;/li&gt;&lt;li&gt;Calcular o preço de venda (60% do voo mais caro, 40% do segundo e 10% de cada adicional).&lt;/li&gt;&lt;li&gt;Calcular a comissão da agência (6%).&lt;/li&gt;&lt;li&gt;Informar a cidade de origem e de destino do bilhete.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="357" width="340" x="80" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="bil-collab" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#222222;fontSize=14;align=left;verticalAlign=top;spacing=8;strokeColor=#a9c49a;" value="&lt;div style=&quot;line-height:1.5;padding:8px&quot;&gt;• &lt;b&gt;Voo&lt;/b&gt;&lt;br&gt;Fornece a rota, a data e o preço base.&lt;br&gt;&lt;br&gt;• &lt;b&gt;Rota / Cidade&lt;/b&gt;&lt;br&gt;Fornecem origem e destino para validar a conexão.&lt;br&gt;&lt;br&gt;• &lt;b&gt;Cliente&lt;/b&gt;&lt;br&gt;Guarda o bilhete no seu histórico de compras.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="357" width="220" x="420" y="193" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
